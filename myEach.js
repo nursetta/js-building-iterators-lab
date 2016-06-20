@@ -2,15 +2,15 @@
 
 function myEach(arr, callback) {
 
-//  CODE INSIDE HERE   //
-
-}
+	for(i=0; i < arr.length; i++) {
+		callback(arr[i], i, arr);
+	}
 
 /*
  Best if you don't code out here.
  If you want to check your code, use `index.js`!
 */
-
+}
 
 
 
